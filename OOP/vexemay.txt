@@ -1,0 +1,9 @@
+8
+XM3 XeMay 1
+XM4 XeMay 1
+XM5 XeMay 1
+XM6 XeMay 1
+XM7 XeMay 1
+XM8 XeMay 0
+XM9 XeMay 0
+XM10 XeMay 1

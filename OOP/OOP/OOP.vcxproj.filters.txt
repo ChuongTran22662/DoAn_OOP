@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThoiGian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhieuGuiXe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachPhieuGuiXe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VeXe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VeXeOTo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachVeXe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VeXeMay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NhanVien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ngay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachNhanVien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachXeTrongBen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TT_SoXeRa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoXeRa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimKiem_BaoCao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GiaTien.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BangGia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachSuCo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SuCo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GiaiQuyetSuCo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachGiaiQuyetSuCo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemTheXe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheXeBiXoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachTheBiXoa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChiTietBienBan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanhSachCTBB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LichSuThayDoiGiaVe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DS_LichSuGiaVe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThoiGian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhieuGuiXe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachPhieuGuiXe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VeXe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VeXeOTo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachVeXe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VeXeMay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NhanVien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ngay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachNhanVien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachXeTrongBen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TT_SoXeRa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoXeRa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimKiem_BaoCao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GiaTien.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BangGia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachSuCo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SuCo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GiaiQuyetSuCo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachGiaiQuyetSuCo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemTheXe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TheXeBiXoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachTheBiXoa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChiTietBienBan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DanhSachCTBB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LichSuThayDoiGiaVe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS_LichSuGiaVe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="vexemay.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="vexeoto.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="danhsachnhanvien.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="TheXeBiXoa.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="BangGia.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="danhsachgiaiquyetsuco.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="danhsachsuco.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="SoXeRa.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="danhsachphieuguixe.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="ChiTietBienBan.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="LichSuGiaVe.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

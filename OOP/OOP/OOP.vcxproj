@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BangGia.cpp" />
+    <ClCompile Include="ChiTietBienBan.cpp" />
+    <ClCompile Include="console.cpp" />
+    <ClCompile Include="DanhSachCTBB.cpp" />
+    <ClCompile Include="DanhSachGiaiQuyetSuCo.cpp" />
+    <ClCompile Include="DanhSachNhanVien.cpp" />
+    <ClCompile Include="DanhSachPhieuGuiXe.cpp" />
+    <ClCompile Include="DanhSachSuCo.cpp" />
+    <ClCompile Include="DanhSachTheBiXoa.cpp" />
+    <ClCompile Include="DanhSachVeXe.cpp" />
+    <ClCompile Include="DanhSachXeTrongBen.cpp" />
+    <ClCompile Include="DS_LichSuGiaVe.cpp" />
+    <ClCompile Include="GiaiQuyetSuCo.cpp" />
+    <ClCompile Include="GiaTien.cpp" />
+    <ClCompile Include="LichSuThayDoiGiaVe.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Ngay.cpp" />
+    <ClCompile Include="NhanVien.cpp" />
+    <ClCompile Include="PhieuGuiXe.cpp" />
+    <ClCompile Include="SoXeRa.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SuCo.cpp" />
+    <ClCompile Include="ThemTheXe.cpp" />
+    <ClCompile Include="TheXeBiXoa.cpp" />
+    <ClCompile Include="ThoiGian.cpp" />
+    <ClCompile Include="TimKiem_BaoCao.cpp" />
+    <ClCompile Include="TT_SoXeRa.cpp" />
+    <ClCompile Include="VeXe.cpp" />
+    <ClCompile Include="VeXeMay.cpp" />
+    <ClCompile Include="VeXeOTo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BangGia.h" />
+    <ClInclude Include="ChiTietBienBan.h" />
+    <ClInclude Include="console.h" />
+    <ClInclude Include="DanhSachCTBB.h" />
+    <ClInclude Include="DanhSachGiaiQuyetSuCo.h" />
+    <ClInclude Include="DanhSachNhanVien.h" />
+    <ClInclude Include="DanhSachPhieuGuiXe.h" />
+    <ClInclude Include="DanhSachSuCo.h" />
+    <ClInclude Include="DanhSachTheBiXoa.h" />
+    <ClInclude Include="DanhSachVeXe.h" />
+    <ClInclude Include="DanhSachXeTrongBen.h" />
+    <ClInclude Include="DS_LichSuGiaVe.h" />
+    <ClInclude Include="GiaiQuyetSuCo.h" />
+    <ClInclude Include="GiaTien.h" />
+    <ClInclude Include="LichSuThayDoiGiaVe.h" />
+    <ClInclude Include="Ngay.h" />
+    <ClInclude Include="NhanVien.h" />
+    <ClInclude Include="PhieuGuiXe.h" />
+    <ClInclude Include="SoXeRa.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SuCo.h" />
+    <ClInclude Include="ThemTheXe.h" />
+    <ClInclude Include="TheXeBiXoa.h" />
+    <ClInclude Include="ThoiGian.h" />
+    <ClInclude Include="TimKiem_BaoCao.h" />
+    <ClInclude Include="TT_SoXeRa.h" />
+    <ClInclude Include="VeXe.h" />
+    <ClInclude Include="VeXeMay.h" />
+    <ClInclude Include="VeXeOTo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="BangGia.txt" />
+    <Text Include="ChiTietBienBan.txt" />
+    <Text Include="danhsachgiaiquyetsuco.txt" />
+    <Text Include="danhsachnhanvien.txt" />
+    <Text Include="danhsachphieuguixe.txt" />
+    <Text Include="danhsachsuco.txt" />
+    <Text Include="LichSuGiaVe.txt" />
+    <Text Include="SoXeRa.txt" />
+    <Text Include="TheXeBiXoa.txt" />
+    <Text Include="vexemay.txt" />
+    <Text Include="vexeoto.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{42599D32-14BE-4A82-A898-0B272A96CBC3}</ProjectGuid>
+    <RootNamespace>OOP</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <UndefinePreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

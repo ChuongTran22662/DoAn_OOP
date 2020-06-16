@@ -1,0 +1,11 @@
+10
+XM3 XeMay 0
+XM4 XeMay 0
+XM5 XeMay 0
+XM6 XeMay 1
+XM7 XeMay 1
+XM17 XeMay 1
+XM18 XeMay 1
+XM19 XeMay 1
+XM35 XeMay 1
+XM36 XeMay 1
